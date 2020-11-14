@@ -1,0 +1,18 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/api/message
+Content-Type: application/json
+Authorization: bearer dsksdvjsdhvjshvksvnjsdvh
+
+{
+    "message": "Hello!",
+    "name": "John",
+    "email": "test@mail.ru",
+    "role": "admin"
+}
+
+###
+
+GET http://localhost:3000/api/message
